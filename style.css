@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: inline-flex;
+}
+
+.navbar h2 {
+    margin-left: 5px; 
+    margin-right: 50px;
+}
+
+
+a {
+    display: inline-flex;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    background-color: lightblue;
+    margin: 0;
+}
+
+a.active {
+    background-color: lightblue;
+    margin: 0;
+}
+
+.container img {
+    background-image: url('./assets/images/MainShore.jpg') no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.textblock {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 20vw;
+    padding: 40px;
+    margin-top: -600px;
+    margin-left: 530px;;
+    position: relative;
+    text-align: center;
+}
+
+.textblock img {
+    height: 10vh;
+    display: inline-block;
+}
